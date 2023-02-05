@@ -1,0 +1,146 @@
+
+
+html{
+    background: radial-gradient(rgb(255, 255, 255) 10%, rgb(0, 0, 0)70%);
+    width: 80%;
+    margin: 10px auto;
+    margin-top: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+header{
+    border-radius: 20px 20px 0 0;
+    height: 150px;
+    background-image: url(Imagenes/cifrados.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.logo{
+    width: auto;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    left: auto;
+}
+main{
+    border-radius: 0 0 20px 20px;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    background-image: url(Imagenes/chakisatelieristock-901110192.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.areaInput{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputText{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    text-transform: lowercase;
+    opacity: 80%;
+    height: auto;
+    width: 70%;
+}
+
+h6{
+    color: white;
+    font-size: small;
+    padding-top: 50px;
+}
+.informacion:before{
+    content: "\26A0 ";
+    color: yellow;
+
+}
+.areaOutput{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.outputText{
+    margin: 5%;
+    padding-top: 5%;
+    color: #a13146;
+    outline: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-image: url(Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: bottom 10px center;
+    border: none;
+    border-radius: 10px;
+    background-size: 70% 50%;
+    opacity: 80%;
+    height: auto;
+    width: 70%;
+}
+button{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.botonera{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.btn-encriptar{
+    background-color: #375bbd;
+}
+.btn-desencriptar{
+    background-color: #bd3749;
+}
+.areaBotonCopiar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.copiar{
+    background-color: #37bd85;
+}
+footer{
+    font-weight: 100;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.sociales{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+/*AdaptaciónMovil*/
+
+@media screen and (max-width:480px){
+    .logo{
+        width: 125px;
+        border-radius: 20px;
+        position: relative;
+        top: 40px;
+        left: auto;
+    }
+    body{
+        width: 100%;
+        height: auto;
+    }
+}

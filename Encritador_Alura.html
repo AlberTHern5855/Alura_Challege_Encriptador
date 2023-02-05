@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style_encriptador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="Imagenes/Logo.png" alt="Logo de Alura">
+    </header>
+    <main>
+        <section class="areaInput">
+            <textarea class="inputText" cols="41" rows="30" placeholder="Ingrese el texto aqui!"></textarea>
+            <div>
+                <h6 class="informacion">Sólo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botonera">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="areaOutput">
+            <textarea class="outputText" cols="20" rows="15">Ningún mensaje fue encontrado</textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="code_encrypt.js"></script> 
+    <footer>
+        <p class="copyrigth">&copy2023 - Jose Alberto Hernández Martínez.</p>
+        <div>
+            
+                <a href="https://www.facebook.com/j15a08h89m"><img class="sociales" src="Imagenes/facebook.png" alt="Logo Facebook"></a>
+                <a href="https://www.instagram.com/albert_hdz5/"><img class="sociales" src="Imagenes/instagram.png" alt="Logo Instagram"></a>
+                <a href="https://www.linkedin.com/in/alberto-hern%C3%A1ndez-107696258/"><img class="sociales" src="Imagenes/linked_icon.png" alt="Logo linkedin"></a>
+                <a href="https://github.com/AlberTHern5855"><img class="sociales" src="Imagenes/github_logo_.png" alt="Logo Github"></a>
+            
+        </div>
+    </footer>
+
+    
